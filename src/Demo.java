@@ -3,6 +3,10 @@ public class Demo {
         init();
     }
     private static void init() {
+        one();
+    }
+
+    private static void one() {
         System.out.println("haha ...");
         Student student = new Student();
         System.out.println(student.getName());
