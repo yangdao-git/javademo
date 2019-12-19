@@ -4,8 +4,6 @@ public class Demo {
     }
 
     private static void init() {
-
-
         Student student = new Student();
         System.out.println(student.getName());
     }
